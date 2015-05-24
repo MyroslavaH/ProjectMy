@@ -1,0 +1,48 @@
+.new-invoice{
+  width : 100% !important;
+//  height: 100% !important;
+  .x-box-inner{
+    width: 100% !important;
+    .x-box-target{
+    width: 100% !important;
+      .x-panel-body{
+        width: 100% !important;
+      }
+    }
+   }
+  .new-invoice-panel{
+    width: 100% !important;
+    height: 40px !important;
+    border: 1px solid black;
+    .x-panel-body {
+      background: #F5FDB0;
+      height: 40px !important;
+    }
+    .x-panel-body-default{
+      height: 40px !important;
+    }
+//    .x-noborder-trbl{
+//      height: 40px !important;
+//  }
+  }
+  .n-i-panel{
+    border: 1px solid black;
+    width: 100% !important ;
+    height: 200px;
+     .new-invoice-button{
+       width: 50px;
+       height: 40px;
+       display: inline-block;
+       color: white;
+       text-decoration: none;
+       padding: .5em 2em;
+       outline: none;
+       border-width: 2px 0;
+       border-style: solid none;
+       border-color: #8DC951 #000 #6EA933;
+       border-radius: 6px;
+       background: linear-gradient(#BDF962, #619C07) #619C07;
+     }
+
+  }
+}

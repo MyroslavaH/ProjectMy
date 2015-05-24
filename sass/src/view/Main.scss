@@ -1,0 +1,23 @@
+.app-main {
+  .main-titlebar {
+    border-bottom: 1px solid black;
+    .x-panel-body-default {
+      background: green !important;
+    }
+  }
+  .west-panel {
+    border-right: 1px solid black;
+    .x-panel-body-default {
+      background: #F5FDB0 !important;
+    }
+  }
+  .main-details-panel {
+    width : 100% !important;
+    height: 100% !important;
+    .x-panel-body{
+      width : 100% !important;
+      height: 100% !important;
+    }
+  }
+
+}
